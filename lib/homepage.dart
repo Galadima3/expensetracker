@@ -41,7 +41,7 @@ class _HompePageState extends State<HompePage> {
           return StatefulBuilder(
             builder: (BuildContext context, setState) {
               return AlertDialog(
-                title: const Text(' NEW TRANSACTION'),
+                title: const Text('NEW TRANSACTION'),
                 content: SingleChildScrollView(
                   child: Column(
                     children: [
